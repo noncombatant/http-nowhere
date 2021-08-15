@@ -1,0 +1,21 @@
+{
+  "name": "HTTP Nowhere",
+  "version": "1.1",
+  "manifest_version": 3,
+  "description": "This extension upgrades non-secure connections (HTTP) to secure (HTTPS).",
+  "icons": {
+    "128": "http-nowhere.png"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "upgrade",
+        "enabled": true,
+        "path": "upgrade.json"
+      }
+    ]
+  },
+  "permissions": [
+    "declarativeNetRequest"
+  ]
+}
