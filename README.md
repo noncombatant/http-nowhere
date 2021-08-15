@@ -1,7 +1,7 @@
 # HTTP Nowhere
 
-HTTP Nowhere upgrades non-secure web connections to secure: it upgrade HTTP URLs
-to HTTPS.
+HTTP Nowhere upgrades non-secure web connections to secure: it upgrades HTTP
+URLs to HTTPS.
 
 If the web site does not correctly support HTTPS, Chrome will refuse to connect
 (with the usual interstitial warning page). **Thus, this extension will make it
